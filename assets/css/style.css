@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    animation: fade-up 0.5s;
+   
+}
+/* @media (max-width: 767px) {
+    .input-group input,
+    .input-group button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    main{
+        height: 1000%;
+    }
+  } */
+  
+main{
+    background-color: #8454F4;
+   
+    height: max-content;
+    padding:15px;   
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* @font-face {
+    font-family: "Nunito Sans";
+    src: url(/fonts/static/NunitoSans_10pt-ExtraLight.ttf) format("truetype");
+    src: url(/fonts/static/NunitoSans_10pt-Italic.ttf) format("truetype");
+} */
+.nav-item{
+    margin-right: 40px;
+}
+.text-nowrap{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.card{
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+  box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+  animation: fade-up 0.5s;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+.text-break{
+    color: lightgray;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 0;
+    margin-left: 60px;
+    height: 50px;
+}
+img{
+    height: 370px;
+    
+}
+.custom-container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Optional custom styles */
+  .my-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+  .gradient-img{
+    height: 90%;
+    margin-left: 20%;
+    margin-top: 6%;
+    
+  }
+  .bunch{
+    
+    font-size: 48px;
+    font-weight: bold;
+   
+    margin-top: 50px;
+  }
+  .bunchInfo{
+    font-size: 14px;
+    
+   
+    margin-top: 50px;
+  }
+  #register-btn{
+    margin-left: 0;
+    width: 100px;
+  }
+  .logo-nav{
+    height: 70px;
+    width: 150px;
+    margin-left: 30%;
+  }
+  .highqual{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 100px;
+   
+  }
+    .col{
+    height: 320px;
+    width: 370px;
+    padding: 20px;
+    margin-left: 100px;
+    border:1 px solid white ;
+    border-radius: 0;
+  }
+  .col img{
+    height: 90px;
+    width: 80px;
+    margin-left: 130px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+  .guarantee{
+    
+    font-size: 48px;
+    font-weight: bold;
+   margin-left: 80px;
+    margin-top: 50px;
+  }
+  .guaranteeInfo{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  #registerG-btn{
+    margin-left: 80px;
+    width: 100px;
+  }
+
+  .open{
+    
+    font-size: 48px;
+    font-weight: bold;
+   margin-left: 50px;
+    margin-top: 50px;
+  }
+  .openInfo{
+    font-size: 14px;
+    margin-left: 50px;
+   
+    margin-top: 50px;
+  }
+  #registerO-btn{
+    margin-left: 0;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .subscribe{
+    background-color: #8454F4 ;
+    width:1200px;
+    height: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: white;
+  }
+
+  footer {
+    
+    padding: 20px;
+    margin-right: 10%;
+  }
+  
+  .footer-column {
+    margin-bottom: 20px;
+    margin-left: 20%;
+    
+  }
+  
+  .footer-column img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-icons a {
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+ .footer-column img {
+    height: 100px;
+    width: 200px;
+    margin-left: 50px;
+ }
+ .footer-column p {
+    margin-left: 50px;
+ }
+ .footer-icons img{
+    width: 40px;
+    
+    
+ }
+ .container-subscribe{
+    display: flex;
+ }
+ #email-form{
+  background: rgba(255, 255, 255, 0.5);
+ }
+  
+@media screen and (max-width: 600px) 
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        background-color: #8454F4;
+        background-size: cover;
+        height: max-content;
+        line-height: 40px;
+        padding:15px;   
+        margin-left: 0;
+        margin-right: 0;
+        width: max-content;
+    }
+    .logo-nav{
+      margin-left: 0;
+    }
+    
+    
+    .gradient-img{
+        height: 80%;
+       margin-left: 40px;
+        margin-top: 80px;
+      }
+     .subscribe{     
+            background-color: #8454F4 ;
+            width:100%;
+            height: 500px;
+           
+            padding: 30px;
+            margin-top: 100px;
+           margin-left: 0;
+           color:white
+     
+     } 
+     .subscribe p {
+      margin-left: 0;
+     }
+     #subscribe-btn{
+      margin-top: 8px;
+      width: 100%;
+     }
+     #email-form{
+      margin-bottom: 10px;
+      height: 50px;
+     }
+     footer {
+        
+        padding: 20px;
+        margin-left: 0;
+      }
+      
+      .footer-column {
+        margin-bottom: 20px; 
+        margin-left: 0;
+        
+      }
+      .footer-column ul{
+        flex-direction: row;
+      }
+      .footer-column li{
+        flex-direction: row;
+      }
+      
+      .logo-footer {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+        
+        
+        
+      }
+      footer p {
+        margin-left: 0;
+        
+      }
+      .my-image {
+        max-width: 95%;
+        height: auto;
+        margin-left: 0;
+        padding: 8px;
+       
+      }
+     
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 0;
+        
+      }
+      
+      .col{
+        height: 320px;
+        width: 80%;
+        padding: 20px;
+        align-items: center;
+        border:1 px solid white ;
+        border-radius: 0;
+        margin: 0;
+        margin-left: 40px;
+      }
+      .col img{
+        height: 90px;
+        width: 80px;
+        margin-left: 40%;
+        padding-top: 15px;
+        margin-bottom: 15px;
+      }
+      .card{
+        border: none;
+        outline: none;
+        transition: all 0.3s;
+        box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+        animation: fade-up 0.5s;
+      }
+      .card:hover{
+        transform: scale(1.15);
+      }
+     
+      .title{
+        margin-top: 20px;
+      }
+      .guarantee , .open{
+    
+        font-size: 48px;
+        font-weight: bold;
+        margin-left: 0;
+        margin-top: 50px;
+      }
+      .guaranteeInfo , .openInfo{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 0;
+        line-height: 30px;
+        margin-right: 5px;
+        padding: 8px;
+      }
+      #registerG-btn , #registerO-btn{
+        margin-left: 0;
+        width: 100px;
+      }
+      .text-nowrap{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .text-break{
+      color: lightgray;
+      margin-left: 0;
+      margin-top: 20px;
+  }
+  .btn{
+      border-radius: 0;
+      margin-left: 0;
+      height: 50px;
+  }
+      ul li {
+        margin-bottom: 10px;
+        margin-left: 0;
+      }
+      
+     
+     
+    
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
